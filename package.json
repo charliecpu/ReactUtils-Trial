@@ -1,11 +1,11 @@
 {
   "name": "@charliecpu/reactutils-trial",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx tsc --project tsconfig.json  && vite build",
+    "build": "vite build && npx tsc --project tsconfig.json",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
